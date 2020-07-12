@@ -1,0 +1,49 @@
+body{
+    background-color: #d6d6d6;
+}
+/*=================================================================
+	Estilos Generales del Header
+=================================================================*/
+
+.dropdown-menu{
+    left: -300%;
+}
+
+.modal-header form{
+    width: 100% !important;
+}
+
+.icon-publish{
+    border:  1px solid rgb(172, 172, 172);
+    color: #222222 !important;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 25px;
+}
+
+/*=================================================================
+	Estilos Generales Contenido Principal
+=================================================================*/
+.nav-pills .nav-link {
+    color: #222222;
+}
+
+.nav-pills .nav-link:hover{
+    color: #707070;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #222222;
+}
+
+.card .card-footer span{
+    margin-left: 80%;
+    color: #222222;
+}
+
+.card .card-footer span a{
+    color: #222222;
+}
+
+

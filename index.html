@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagrams Bootstrap</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/78749104cc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./main.css">
+
+
+</head>
+<body>
+    
+<header><!-- INICIA El HEADER -->
+<!--=========================== INICIA SECCION NAV ===========================-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  justify-content-around">
+        <a class="navbar-brand" href="#"> <i class="fab fa-instagram"></i> Instagram</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-right w-100 justify-content-end">
+            <button class="btn btn-success my-2 my-sm-0" type="submit"  data-toggle="modal" data-target="#exampleModal">Create new post</button>
+            <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <form>
+                            <div class="form-group w-100">
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form class="w-100">
+                        </div>
+                        <div class="modal-body">
+                            <div class="row p-2">
+                                <a href="#" class="icon-publish m-2"> <i class="fas fa-camera"></i>  </a> 
+                                <a href="#" class="icon-publish m-2" > <i class="fas fa-map-marker-alt"></i> </a>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-success">Publish</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                 <!-- / Modal -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-cog"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Log out</a>
+              </div>
+            </li>
+
+          </ul>
+         
+        </div>
+      </nav>
+<!--=========================== FIN SECCION NAV ===========================-->
+ </header><!-- FIN El HEADER -->
+
+ <!--=========================== INICIA SECCION CONTENIDO ===========================-->
+<div class="container-fluid bg-content mt-3">
+    <div class="">
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th"></i></a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-th-list"></i></a>
+            </li>
+            
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="card-group ">
+                    <div class="card ">
+                      <img src="https://images.unsplash.com/photo-1593632379400-0c42ff529a14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                      
+                    </div>
+                    <div class="card ">
+                      <img src="https://images.unsplash.com/photo-1593394684133-bbd68874211e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                      
+                    </div>
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1588222495729-929dccc6859a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                     
+                    </div>
+                    
+                </div>
+
+                <div class="card-group ">
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1593632379400-0c42ff529a14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                      
+                    </div>
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1593394684133-bbd68874211e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                      
+                    </div>
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1588222495729-929dccc6859a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                     
+                    </div>
+                   
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1593632379400-0c42ff529a14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                      
+                    </div>
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1593394684133-bbd68874211e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                      
+                    </div>
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1588222495729-929dccc6859a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                     
+                    </div>
+                   
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1593632379400-0c42ff529a14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                      
+                    </div>
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1593394684133-bbd68874211e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                      
+                    </div>
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1588222495729-929dccc6859a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80" class="card-img-top" alt="..." width="400px" height="300px">
+                     
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-12">
+                            <div class="card border-light mb-3" style="">
+                                <div class="card-header justify-content-end">My firts Photo <span> 12/14 </span></div>
+                                <img src="https://images.unsplash.com/photo-1593632379400-0c42ff529a14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h6 class="card-title">23 Like</h6>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer justify-content-around">
+                                    <small class="text-muted"> <i class="fas fa-heart"></i> Comment...</small>
+                                    <span class=" justify-content-end"> <a href="#"> <i class="fas fa-ellipsis-v"></i> </a> </span>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-6">
+                            <div class="card border-light mb-3" style="">
+                                <div class="card-header justify-content-end">My firts Photo <span> 12/14 </span></div>
+                                <img src="https://images.unsplash.com/photo-1593394684133-bbd68874211e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h6 class="card-title">23 Like</h6>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer justify-content-around">
+                                    <small class="text-muted"> <i class="fas fa-heart"></i> Comment...</small>
+                                    <span class=" justify-content-end"> <a href="#"> <i class="fas fa-ellipsis-v"></i> </a> </span>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row justify-content-center">
+                        <div class="col-6">
+                            <div class="card border-light mb-3" style="">
+                                <div class="card-header justify-content-end">My firts Photo <span> 12/14 </span></div>
+                                <img src="https://images.unsplash.com/photo-1588222495729-929dccc6859a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h6 class="card-title">23 Like</h6>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer justify-content-around">
+                                    <small class="text-muted"> <i class="fas fa-heart"></i> Comment...</small>
+                                    <span class=" justify-content-end"> <a href="#"> <i class="fas fa-ellipsis-v"></i> </a> </span>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-6">
+                            <div class="card border-light mb-3" style="">
+                                <div class="card-header justify-content-end">My firts Photo <span> 12/14 </span></div>
+                                <img src="https://images.unsplash.com/photo-1593632379371-871dea420c0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h6 class="card-title">23 Like</h6>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer justify-content-around">
+                                    <small class="text-muted"> <i class="fas fa-heart"></i> Comment...</small>
+                                    <span class=" justify-content-end"> <a href="#"> <i class="fas fa-ellipsis-v"></i> </a> </span>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+          </div>
+    </div>
+</div>
+ 
+ <!--=========================== FIN SECCION CONTENIDO ===========================-->
+
+
+
+
+
+
+<!-- ===== Javascript ===== -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
